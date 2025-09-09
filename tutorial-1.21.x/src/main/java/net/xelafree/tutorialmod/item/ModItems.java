@@ -21,7 +21,7 @@ public class ModItems {
 	 * 
 	 * @param name name of the item to be registered
 	 * @param item item object for the item
-	 * @return returns the item object if succsefuly registered
+	 * @return returns the item object if successfully registered
 	 */
 	private static Item registerItem(String name, Item item) {
 		return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
