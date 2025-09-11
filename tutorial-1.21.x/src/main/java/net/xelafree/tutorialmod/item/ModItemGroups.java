@@ -37,7 +37,9 @@ public class ModItemGroups {
 			);
 
 	
-
+	/**
+	 * Initializer for Item Group registration, but without current registration.
+	 */
 	public static void registerItemGroups() {
 		TutorialMod.LOGGER.info("Registering item groups for " + TutorialMod.MOD_ID);
 
