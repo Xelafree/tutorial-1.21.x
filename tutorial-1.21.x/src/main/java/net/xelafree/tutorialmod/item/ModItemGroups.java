@@ -10,6 +10,9 @@ import net.minecraft.util.Identifier;
 import net.xelafree.tutorialmod.TutorialMod;
 import net.xelafree.tutorialmod.block.ModBlocks;
 
+/**
+ * Sets up the item groups.
+ */
 public class ModItemGroups {
 	public static final ItemGroup PINK_GARNET_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP, 
 			Identifier.of(TutorialMod.MOD_ID, "pink_garnet_items"), 
