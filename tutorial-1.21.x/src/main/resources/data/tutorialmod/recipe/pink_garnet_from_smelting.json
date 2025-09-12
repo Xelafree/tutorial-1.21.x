@@ -1,7 +1,8 @@
 {
 	"type": "minecraft:smelting",
-	"group": "pink_garnet",
-	"ingerdient": "tutorialmod:raw_pink_garnet",
+	"ingredient": {
+		"item": "tutorialmod:raw_pink_garnet"
+	},
 	"cookingtime": 200,
 	"experience": 0.5,
 	"result": {
