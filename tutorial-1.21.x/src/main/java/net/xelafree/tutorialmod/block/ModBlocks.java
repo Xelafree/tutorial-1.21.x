@@ -13,6 +13,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.xelafree.tutorialmod.TutorialMod;
+import net.xelafree.tutorialmod.block.custom.MagicBlock;
 
 /**
  * Registers the blocks for the mod.
@@ -32,6 +33,9 @@ public class ModBlocks {
 	public static final Block PINK_GARNET_DEEPLSATE_ORE = registerBlock("pink_garnet_deepslate_ore",
 			new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
 					AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+	public static final Block MAGIC_BLOCK = registerBlock("magic_block", new MagicBlock(
+			AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
 	/**
 	 * Helper that adds the specified block to the block registry.
